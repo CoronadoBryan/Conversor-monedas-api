@@ -47,12 +47,4 @@ Crea un pull request.
 Licencia
 Este proyecto está licenciado bajo la licencia MIT.
 
-Hecho con ❤️ por Miaucode
-markdown
-Copiar código
-
-### Instrucciones:
-- **Captura de Pantalla**: Reemplaza `"ruta/a/tu/imagen.png"` con la ruta de la imagen de tu proyecto (puedes agregar una imagen del proyecto al repositorio o subirla a un servidor externo).
-- **Enlaces**: Asegúrate de poner los enlaces correctos para tu repositorio y tu portafolio personal.
-
-Este archivo `README.md` proporciona una descripción completa de tu proyecto, instrucciones claras para in
+Hecho con ❤️ por Miaucode para el grupo HTML , CSS y JS
