@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Monedas - Miaucode</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Título -->
+    <header>
+      <img src="https://miaucode.digital/wp-content/uploads/2024/08/logo-2-300x81.png" alt="">
+      <p class="subtitulo" >Creé este conversor de monedas 💱 con el objetivo de mejorar<br> mi lógica de programación 
+        🧠 y aprender a trabajar con APIs 🔌, mientras desarrollo una<br> herramienta útil y  fácil de usar para conversiones rápidas y precisas 🌍💸</p>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+      <div class="container">
+        <!-- Inputs -->
+        <div class="conversion-box">
+          <div class="input-group">
+            <label for="monto">Cantidad</label>
+            <div class="input-row">
+              <input
+                type="number"
+                id="monto"
+                placeholder="1000"
+                class="input-field"
+              />
+              <select id="monedaOrigen" class="currency-select"></select>
+            </div>
+          </div>
+
+          <div class="exchange-icon">⇆</div>
+
+          <div class="input-group">
+            <label for="resultado">Convertido a</label>
+            <div class="input-row">
+              <input
+                type="text"
+                id="resultadoConvertido"
+                placeholder="0.00"
+                readonly
+                class="input-field"
+              />
+              <select id="monedaDestino" class="currency-select"></select>
+            </div>
+          </div>
+        </div>
+
+    
+
+        <p id="resultado" class="final-result">1,000 € EUR = 1,050 $ USD</p>
+        
+
+        <div class="buttons">
+          <button class="btn seguimiento">Haz seguimiento al tipo de cambio</button>
+          <button id="convertirBtn" class="btn enviar">convertir</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Hecho con ❤️ por <strong>Miaucode</strong> |
+        <a href="https://github.com/miaucode" target="_blank">GitHub</a> |
+        <a href="https://bryancoronado.com/">Portafolio</a>
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+/* Reset General */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+
+    font-family: "Arial", sans-serif;
+    background-color: #0d1b2a; /* Azul oscuro */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Título */
+  header {
+    margin-top: 100px;
+
+  }
+  
+
+  .subtitulo {
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #ddd;
+  }
+  
+  /* Contenedor Principal */
+  .container {
+
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Caja de Conversión */
+  .conversion-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .input-group {
+    width: 45%;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-field,
+  .currency-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #00b774;
+    border-radius: 8px;
+    margin-right: 5px;
+  }
+  
+  .currency-select {
+    width: 30%;
+  }
+  
+  .input-field {
+    width: 70%;
+  }
+  
+  .exchange-icon {
+    font-size: 32px;
+    color: #00b774;
+  }
+  
+  /* Resultado */
+  .final-result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Botones */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .seguimiento {
+    background: #ffffff;
+    color: #00b774;
+    border: 2px solid #00b774;
+  }
+  
+  .seguimiento:hover {
+    background: #00b774;
+    color: #ffffff;
+  }
+  
+  .enviar {
+    background: #00b774;
+    color: #ffffff;
+  }
+  
+  .enviar:hover {
+    background: #009e63;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  footer a {
+    color: #00b774;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .conversion-box {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .input-group {
+      width: 100%;
+    }
+  
+    .buttons {
+      flex-direction: column;
+    }
+  }
+  
